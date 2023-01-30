@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">CurrencyConventer</string>
+    <string-array name="currency_codes">
+        <item>KGS</item>
+        <item>RUB</item>
+        <item>USD</item>
+        <item>SAR</item>
+        <item>EUR</item>
+    </string-array>
+</resources>
