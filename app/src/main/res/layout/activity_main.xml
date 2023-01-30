@@ -20,11 +20,11 @@
         app:layout_constraintTop_toTopOf="parent" />
 
     <com.google.android.material.textfield.TextInputLayout
-        android:id="@+id/tilFrom"
+        android:id="@+id/amountLayout"
         style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox.Dense"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
-        android:hint="Amount"
+        android:hint="Сумма"
         android:layout_marginEnd="16dp"
         app:layout_constraintBottom_toBottomOf="@+id/spFromCurrency"
         app:layout_constraintEnd_toStartOf="@+id/spFromCurrency"
@@ -32,6 +32,7 @@
         app:layout_constraintTop_toTopOf="@+id/spFromCurrency">
 
         <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/amount"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:inputType="numberDecimal" />
